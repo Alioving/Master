@@ -1,0 +1,250 @@
+
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+\usepackage{float}
+
+\setstretch{1.15}
+
+% -----------------------------------------------------
+% Set up fancy header with an image
+% -----------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}  % Clear all header and footer fields
+% Left side header: place a small image (replace "header.png" with your file)
+\fancyhead[L]{\includegraphics[height=1cm]{header.png}}
+% Page number in the center of the footer
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+
+% -----------------------------------------------------
+% Author information (before Summary of Project)
+% -----------------------------------------------------
+\noindent
+\textbf{Applicant Nam:} Wenbin Hu\\
+\textbf{Supervisor}: Dr Xuefei Yin\\
+\textbf{Dissertation Title}: Medical Image Processing
+
+\vspace{1em}
+
+
+
+%---------------------------------------------
+% 1. SUMMARY OF PROJECT
+%---------------------------------------------
+\section*{1. Summary of Project}
+
+\noindent
+\textbf{1. Research Background }\\
+With continued advances in imaging modalities such as \textbf{MRI}, \textbf{CT}, and \textbf{X-ray}, acquiring large-scale medical images has become significantly easier. These innovations, alongside progress in \textbf{machine learning}, hold considerable promise in aiding clinical diagnoses, predicting disease outcomes, and refining treatment strategies.
+
+\vspace{0.5em}
+\noindent
+\textbf{2. Research Problems or Gaps}\\
+Despite recent success, current models often struggle with \textbf{multi-modal} data integration, variations across multiple clinical sites, and limited interpretability, which hinders their full-scale adoption in healthcare environments.
+
+\vspace{0.5em}
+\noindent
+\textbf{3. Proposed Solutions or Goals}\\
+This study aims to build a \textbf{data-efficient, multi-modal, and interpretable} system for processing medical images. By applying \textbf{transfer learning}, \textbf{domain adaptation}, and \textbf{explainable AI} strategies, the framework seeks to preserve high performance while enhancing resilience and transparency in clinical contexts.
+
+\vspace{0.5em}
+\noindent
+\textbf{4. Significance or Expected Outcomes }\\
+Such a framework can alleviate the burden on clinicians, deliver accurate results across diverse healthcare facilities, and be scaled for rapid deployment. Ultimately, it aspires to open new avenues for broader, reliable, and efficient \textbf{machine learning} applications in medical imaging.
+
+%---------------------------------------------
+% 2. LITERATURE REVIEW
+%---------------------------------------------
+\section*{2. Literature Review}
+
+\subsection*{2.1. Recent Works }
+\begin{itemize}
+    \item \textbf{Deep Learning in Medical Imaging} \\
+    Investigations focusing on \textbf{CNNs} and \textbf{Transformers} have targeted \textbf{classification}, \textbf{detection}, and \textbf{segmentation} challenges (Zhang et al., 2021; Gupta et al., 2022). Even though these show strong accuracy in benchmark datasets, performance often deteriorates under different institutional settings or when facing \textbf{multi-modal} scenarios.
+
+    \item \textbf{Transfer Learning \& Domain Adaptation} \\
+    Emerging techniques, including \textbf{few-shot learning} and \textbf{adversarial domain adaptation}, address limited data and distribution discrepancies in medical imaging (He et al., 2021; Anderson \& Gupta, 2023).
+
+    \item \textbf{Explainable AI (XAI)} \\
+    Approaches such as \textbf{Grad-CAM} and \textbf{LIME} highlight model decision pathways but often rely on qualitative measures, with limited standardized metrics to gauge clinical relevance (Nguyen et al., 2022).
+\end{itemize}
+
+\subsection*{2.2. Weaknesses and Limitations}
+\begin{itemize}
+    \item \textbf{Limited Multi-modal Generalization}: Many methods concentrate on a single modality or dataset, restricting adaptability across varied populations or imaging equipment.
+    \item \textbf{Data Scarcity}: Large-scale annotated datasets remain scarce, particularly for rarer conditions, affecting model robustness in \textbf{low-data} situations.
+    \item \textbf{Explainability Challenges}: Existing solutions primarily provide localized interpretations without delivering a broader clinical explanation of the model’s overall decision strategy.
+\end{itemize}
+
+\subsection*{2.3. Research Gaps}
+\begin{enumerate}
+    \item \textbf{Cross-Modality/Cross-Institution Domain Adaptation}: Minimizing the drop in accuracy that arises due to differing hardware configurations and image distributions.
+    \item \textbf{Data-Efficient Learning}: Coping with label shortages through \textbf{semi-supervised}, \textbf{transfer learning}, and synthetic augmentation.
+    \item \textbf{Clinical-Grade Interpretability}: Introducing quantitative frameworks aligned with expert assessments for evaluating how effective model outputs are in real-world practice.
+\end{enumerate}
+
+%---------------------------------------------
+% 3. PRINCIPAL FOCUS OF INTENDED RESEARCH
+%---------------------------------------------
+\section*{3. Principal Focus of Intended Research}
+
+\begin{itemize}
+    \item \textbf{Focus A: Multi-Modal Domain Adaptation} \\
+    Apply \textbf{adversarial} or \textbf{meta-learning} methods to maintain consistent accuracy across various imaging types (\textbf{MRI}, \textbf{CT}, \textbf{X-ray}) or hospital settings.
+
+    \item \textbf{Focus B: Data-Efficient Modeling} \\
+    Leverage \textbf{semi-supervised} approaches, \textbf{few-shot learning}, and augmented datasets (e.g., \textbf{GAN}-generated images) to manage scenarios with limited labeled samples.
+
+    \item \textbf{Focus C: Explainability and Clinical Validation} \\
+    Integrate interpretable modules (\textbf{Grad-CAM}, attention mechanisms) and propose measurable criteria (e.g., overlap with medical annotations) to assess genuine clinical utility.
+\end{itemize}
+
+%---------------------------------------------
+% 4. SIGNIFICANCE OF THE STUDY
+%---------------------------------------------
+\section*{4. Significance of the Study}
+
+\begin{enumerate}
+    \item \textbf{Enhancing Diagnostic Efficiency \& Accuracy}: A robust \textbf{multi-modal} design can expedite decision-making and reduce variability in clinical diagnoses.
+    \item \textbf{Addressing Persistent Research Gaps}: By tackling distributional shifts and bolstering \textbf{explainability}, this work establishes a foundation for future investigations into multi-center imaging.
+    \item \textbf{Real-World Applications}: The insights derived may readily transfer to \textbf{telemedicine} systems, clinical workflow tools, and health education platforms, especially in under-resourced settings.
+\end{enumerate}
+
+%---------------------------------------------
+% 5. INTENDED METHODOLOGY
+%---------------------------------------------
+\section*{5. Intended Methodology}
+
+\subsection*{5.1. Overall Research Flow}
+
+\begin{verbatim}
+Data Acquisition & Annotation (Multi-Modal)
+   ↓
+Preprocessing & Exploratory Analysis
+   ↓
+Model Development: Transfer/Domain Adaptation
+   ↓
+Explainability Module
+   ↓
+Evaluation: Multi-metric & Clinical Cross-Validation
+   ↓
+System Integration & Publications
+\end{verbatim}
+
+\subsection*{5.2. Specific Steps}
+
+\noindent \textbf{Objective A: Multi-Modal Domain Adaptation}
+\begin{itemize}
+    \item Utilize \textbf{adversarial domain adaptation} (e.g., Domain-Adversarial Neural Networks) or \textbf{meta-learning} approaches to preserve performance in heterogeneous data environments.
+\end{itemize}
+
+\noindent \textbf{Objective B: Data-Efficient Modeling}
+\begin{itemize}
+    \item Incorporate \textbf{semi-supervised} frameworks (e.g., pseudo-labeling) and \textbf{GAN}-driven synthetic data to improve results when labeled examples are sparse.
+\end{itemize}
+
+\noindent \textbf{Objective C: Explainability \& Clinical Validation}
+\begin{itemize}
+    \item Employ \textbf{Grad-CAM}, attention-based visualizations, and structured interviews or assessments with specialists, mapping model attention onto expert-labeled features.
+\end{itemize}
+
+\subsection*{5.3. Datasets}
+\begin{itemize}
+    \item \textbf{Public Databases}: For instance, ChestX-ray14 for thoracic findings and \textbf{BRATS} for \textbf{multimodal} brain tumor detection.
+    \item \textbf{Clinical Collaboration}: Work with regional hospitals or medical partners, using anonymized patient records (with ethical approval) to validate performance on actual clinical cases.
+\end{itemize}
+
+\subsection*{5.4. Evaluation Metrics}
+\begin{itemize}
+    \item \textbf{Classification/Detection}: Accuracy, Precision, Recall, \textbf{F1-Score}.
+    \item \textbf{Segmentation}: \textbf{Dice Similarity Coefficient}, \textbf{Intersection over Union (IoU)}.
+    \item \textbf{Domain Adaptation}: Cross-site accuracy, measuring the drop from source to target domains.
+    \item \textbf{Explainability}: Overlapping areas between saliency maps and expert-demarcated lesions, plus subjective ratings from radiologists.
+\end{itemize}
+
+%---------------------------------------------
+% 6. TWO-YEAR (24 MONTHS) TIMETABLE
+%---------------------------------------------
+\section*{6. Two-Year (24 Months) Timetable}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{p{3cm} p{10cm}}
+\toprule
+\textbf{Time Period} & \textbf{Main Activities} \\
+\midrule
+\textbf{Months 1--3} &
+\begin{itemize}[leftmargin=*]
+    \item Secure ethics approval
+    \item Conduct extensive literature search \& refine objectives
+    \item Complete essential coursework (if needed)
+    \item Finalize data acquisition plan
+\end{itemize} \\
+\textbf{Months 4--6} &
+\begin{itemize}[leftmargin=*]
+    \item Perform data cleaning and exploratory analyses
+    \item Establish baseline models for initial trials
+    \item Experiment with \textbf{semi-supervised}/\textbf{transfer learning} strategies
+\end{itemize} \\
+\textbf{Months 7--9} &
+\begin{itemize}[leftmargin=*]
+    \item Integrate \textbf{domain adaptation} or \textbf{meta-learning} solutions
+    \item Conduct initial multi-center or \textbf{multi-modal} tests
+    \item Introduce preliminary interpretability modules (\textbf{Grad-CAM}, etc.)
+\end{itemize} \\
+\textbf{Months 10--12} &
+\begin{itemize}[leftmargin=*]
+    \item Expand experiments with various \textbf{XAI} techniques
+    \item Draft the first manuscript for conference or journal submission
+    \item Consult with medical experts to gather feedback on interpretability
+\end{itemize} \\
+\textbf{Months 13--15} &
+\begin{itemize}[leftmargin=*]
+    \item Refine model components, possibly extend data coverage
+    \item Increase robustness testing, including more conditions or scanner types
+    \item Start reproducibility and stability checks
+\end{itemize} \\
+\textbf{Months 16--18} &
+\begin{itemize}[leftmargin=*]
+    \item Collaborate closely with clinicians or industry experts; gather real-world performance insights
+    \item Develop and finalize advanced interpretability metrics
+    \item Prepare or submit a second scholarly paper
+\end{itemize} \\
+\textbf{Months 19--21} &
+\begin{itemize}[leftmargin=*]
+    \item Merge all modules into a unified platform for end-to-end evaluation
+    \item Write the early draft of the Master’s thesis; discuss detailed findings with supervisor
+    \item Respond to reviewer comments if any papers are under review
+\end{itemize} \\
+\textbf{Months 22--24} &
+\begin{itemize}[leftmargin=*]
+    \item Finalize thesis and complete the formal review process
+    \item Organize oral defense or pre-defense and address final revisions
+    \item Summarize results, and consider open-source release (if relevant)
+\end{itemize} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%---------------------------------------------
+% 7. REFERENCES (SAMPLE)
+%---------------------------------------------
+\section*{7. References}
+
+\begin{enumerate}[leftmargin=*]
+    \item Anderson, T., \& Gupta, R. (2023). \textit{Adversarial Domain Adaptation in Medical Imaging}. IEEE Transactions on Medical Imaging, 42(5), 1123--1135.
+    \item Gupta, S., Lee, J., \& Mitchell, P. (2022). \textit{Transformer-Based Models for Tumor Detection in MRI}. Medical Image Analysis, 82, 102733.
+    \item He, K., Zhao, Y., \& Chen, D. (2021). \textit{Few-Shot Learning for Rare Disease Diagnosis}. Artificial Intelligence in Medicine, 115, 102060.
+    \item Nguyen, P., Rossi, A., \& Chan, W. (2022). \textit{Evaluation of Saliency-Based Interpretability Methods in CT Scan Analysis}. Scientific Reports, 12, 4559.
+    \item Zhang, Y., Liu, F., \& Chen, B. (2021). \textit{Deep CNNs for Automated Lung Lesion Segmentation}. Computer Methods and Programs in Biomedicine, 207, 106148.
+\end{enumerate}
+
+\end{document}

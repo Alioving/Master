@@ -1,0 +1,285 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{lmodern}     % For a better font
+\usepackage{hyperref}    % For hyperlinks in references (optional)
+\usepackage{enumitem}    % For customizable lists (optional)
+
+\setstretch{1.15}        % Set line spacing
+
+\begin{document}
+
+% ---------------------------------------
+% 1. Title Page
+% ---------------------------------------
+\section*{1. Title Page}
+
+\noindent \textbf{Project Title:} Multi-Modal Medical Image Analysis Integrating Large Language Models for Enhanced Diagnostic Insights
+
+\vspace{1ex}
+\noindent \textbf{Student Name and Number:} Wenbin Hu
+
+\vspace{1ex}
+\noindent \textbf{Department/Faculty:} Department of Computing and Information Technology
+
+\vspace{1ex}
+\noindent \textbf{Degree Sought:} Master of Philosophy- Faculty of Engineering and Information Sciences
+
+\vspace{1ex}
+\noindent \textbf{Supervisors:}\\
+Professor Wanqing Li
+
+\vspace{1ex}
+\noindent \textbf{Date of Submission:} February 25, 2025
+
+% ---------------------------------------
+% 2. Abstract
+% ---------------------------------------
+\section*{2. Abstract}
+This research project investigates how advanced \textbf{Large Language Models (LLMs)} can be integrated with medical image analysis for improved diagnostic accuracy and interpretability. While state-of-the-art imaging models (e.g., CNNs, Transformers) can identify critical features in radiological images, they often lack the ability to contextualize these findings with textual patient information, specialist reports, or clinical guidelines. Recent breakthroughs in LLMs, such as GPT-based architectures, offer an opportunity to bridge this gap by providing powerful natural language processing (NLP) capabilities.
+
+\vspace{0.5em}
+\noindent The proposed study employs a \textbf{multi-modal methodology}, combining deep learning models for image processing with LLM-driven text analytics on associated clinical notes. The theoretical orientation is grounded in multi-modal fusion and transfer learning, leveraging both visual and textual modalities. Expected outcomes include (1) a demonstration of how LLMs can enhance diagnostic workflows, (2) the development of an integrated system for real-time decision support, and (3) broader implications for intelligent healthcare systems that unify imaging and textual data. By translating medical text into structured insights and fusing them with image-based findings, this project aims to improve diagnostic accuracy, explainability, and clinical workflow efficiency.
+
+% ---------------------------------------
+% 3. Table of Contents
+% ---------------------------------------
+\section*{3. Table of Contents}
+
+\begin{enumerate}[label=\arabic*.,leftmargin=2em]
+  \item Title Page
+  \item Abstract
+  \item Table of Contents
+  \item Introduction
+  \begin{enumerate}[label*=\arabic*.]
+    \item Background to the Study
+    \item Significance of the Study
+    \item Statement of the Problem
+    \item Research Questions and Hypotheses
+    \item Definitions
+  \end{enumerate}
+  \item Literature Review
+  \begin{enumerate}[label*=\arabic*.]
+    \item Medical Image Analysis: Current State and Gaps
+    \item Natural Language Processing and Large Language Models in Healthcare
+    \item Integrating Medical Imaging and LLM-based NLP: Rationale and Challenges
+    \item Methodological Approaches in Multi-Modal Research
+  \end{enumerate}
+  \item Research Design/Methodology
+  \begin{enumerate}[label*=\arabic*.]
+    \item Research Type and Approach
+    \item Participants/Data Sources
+    \item Data Collection Procedures
+    \item Data Analysis Methods
+    \item Limitations
+  \end{enumerate}
+  \item Proposed Timeframe
+  \item Expected Outcomes
+  \item References
+\end{enumerate}
+
+% ---------------------------------------
+% 4. Introduction
+% ---------------------------------------
+\section*{4. Introduction}
+
+\subsection*{4.1 Background to the Study}
+Medical imaging has long been a cornerstone of modern diagnostics, enabling clinicians to visualize structural and functional aspects of organs and tissues. Over the past decade, deep learning methods, particularly convolutional neural networks (\textbf{CNNs}) and vision transformers, have significantly improved the accuracy of tasks such as tumor detection, lesion segmentation, and anatomical structure identification. Concurrently, clinical documentation---including physician notes, radiology reports, and patient histories---contains a wealth of textual information crucial for context-based decision-making.
+
+Recent advances in \textbf{Large Language Models (LLMs)} have revolutionized natural language processing, allowing for contextual understanding of large, unstructured text corpora. By combining medical image analysis with LLM-based clinical text analysis, there is a unique opportunity to create integrated decision-support systems that merge visual and textual data streams. Despite this promise, the synergy between image analysis and LLM-driven text processing remains relatively underexplored.
+
+\subsection*{4.2 Significance of the Study}
+Integrating LLM-based text analytics with medical image analysis promises several benefits:
+\begin{itemize}
+  \item \textbf{Improved Diagnostic Accuracy}: By contextualizing imaging findings with patient history or radiology reports, clinicians may arrive at more precise diagnoses.
+  \item \textbf{Enhanced Interpretability}: Multi-modal models can provide richer explanations for decisions, increasing clinical trust and adoption.
+  \item \textbf{Streamlined Workflow}: Unified systems can reduce the cognitive load on medical staff, who typically juggle both imaging and text-based data in separate tools.
+\end{itemize}
+
+\subsection*{4.3 Statement of the Problem}
+While deep learning has transformed standalone medical image analysis, most systems today do not systematically incorporate textual data---especially unstructured text. LLMs offer a novel method to extract patterns from clinical notes, guidelines, or literature. However, achieving effective data fusion, especially in real-world hospital settings, requires resolving challenges like data heterogeneity, privacy concerns, and the need for interpretable outputs.
+
+\subsection*{4.4 Research Questions and Hypotheses}
+
+\noindent \textbf{Research Question 1}: Can an integrated framework combining medical images and LLM-based clinical text analysis improve diagnostic performance compared to image-only or text-only models?\\
+\textit{Hypothesis 1}: A fused multi-modal model will yield higher accuracy in classification or detection tasks than single-modality baselines.
+
+\vspace{0.5em}
+\noindent \textbf{Research Question 2}: How can we ensure that clinically relevant concepts extracted by LLMs align with image-based features to provide interpretable diagnoses?\\
+\textit{Hypothesis 2}: Attention-based multi-modal architectures will enhance explainability by highlighting pertinent image features and corresponding textual evidence.
+
+\vspace{0.5em}
+\noindent \textbf{Research Question 3}: What are the limitations in domain adaptability for multi-modal models in different hospital settings?\\
+\textit{Hypothesis 3}: Domain adaptation methods (e.g., adversarial training) can mitigate performance drops across diverse clinical sites.
+
+\subsection*{4.5 Definitions}
+\noindent \textbf{Medical Image Analysis}: The use of computational methods to interpret medical images (e.g., X-ray, CT, MRI) for diagnostic or treatment purposes.\\
+\noindent \textbf{Large Language Models (LLMs)}: A class of deep neural networks capable of processing and generating human-like text, with architectures such as GPT, BERT, etc.\\
+\noindent \textbf{Multi-Modal Fusion}: The process of combining different data modalities---text and images in this case---to enhance analytic or predictive tasks.\\
+\noindent \textbf{Explainable AI (XAI)}: Techniques aimed at making black-box AI models more interpretable to end users, often required in medical settings for regulatory or practical reasons.
+
+% ---------------------------------------
+% 5. Literature Review
+% ---------------------------------------
+\section*{5. Literature Review}
+
+\subsection*{5.1 Medical Image Analysis: Current State and Gaps}
+Traditional approaches in medical image processing primarily leverage CNNs (e.g., ResNet, U-Net) or more recently, Vision Transformers. These have demonstrated high accuracy in tasks like lesion segmentation or disease classification. However, performance can be compromised by variability in imaging protocols across institutions and a lack of contextual information that text may offer.
+
+\subsection*{5.2 Natural Language Processing and Large Language Models in Healthcare}
+NLP in clinical contexts has historically focused on keyword extraction, entity recognition, and information retrieval from electronic health records (EHRs). The emergence of LLMs---such as GPT and BERT---has significantly advanced the capability to interpret and generate clinical text, supporting tasks like summarizing patient histories or extracting structured medical codes. Despite the promise, issues around hallucination, data privacy, and domain adaptation remain areas of active research.
+
+\subsection*{5.3 Integrating Medical Imaging and LLM-based NLP: Rationale and Challenges}
+Studies on multi-modal fusion suggest that text information can provide supplementary knowledge to image-based diagnostics, e.g., describing a lesion's history or relevant lab results. Nevertheless, comprehensive research that merges cutting-edge LLMs with high-performing image models is sparse. Challenges include:
+\begin{itemize}
+  \item \textbf{Data Labeling Complexity}: Aligning text segments with corresponding image regions or time points can be non-trivial.
+  \item \textbf{Computational Overhead}: Combining large image datasets with sizable text corpora requires substantial computational resources.
+  \item \textbf{Interpretability}: Ensuring that the combined model's outputs can be explained clearly to clinicians remains an ongoing concern.
+\end{itemize}
+
+\subsection*{5.4 Methodological Approaches in Multi-Modal Research}
+Preliminary work in multi-modal analysis often involves attention-based fusion, in which relevant textual tokens are aligned with salient image pixels or regions. Other methods include cross-modal transformers that jointly learn shared representations. Key factors in designing such systems include data preprocessing, representation learning (embedding text and image data into a common space), and domain adaptation to maintain performance across varied hospital systems.
+
+% ---------------------------------------
+% 6. Research Design/Methodology
+% ---------------------------------------
+\section*{6. Research Design/Methodology}
+
+\subsection*{6.1 Research Type and Approach}
+This project will adopt a \textbf{quantitative, experimental approach} with a focus on model development and benchmarking. It integrates:
+\begin{itemize}
+  \item \textbf{Medical imaging (visual data)} from radiological scans (e.g., chest X-ray, CT).
+  \item \textbf{Unstructured clinical text} (e.g., radiology reports, EHR notes) processed by LLMs.
+\end{itemize}
+A multi-modal model will be developed, tested, and compared with single-modality baselines to ascertain the added value of text-image fusion.
+
+\subsection*{6.2 Participants/Data Sources}
+\begin{itemize}
+  \item \textbf{Participants}: De-identified patient data sets from two major hospitals, ensuring a diverse demographic representation.
+  \item \textbf{Data Sources}: 
+  \begin{itemize}
+    \item \textit{Imaging}: Public repositories (e.g., ChestX-ray14) and hospital-provided scans.
+    \item \textit{Clinical Text}: Associated radiology reports and relevant EHR notes, stripped of personal identifiers.
+  \end{itemize}
+\end{itemize}
+
+\subsection*{6.3 Data Collection Procedures}
+\begin{enumerate}
+  \item \textbf{Ethical Approval}: Submit a detailed plan to the Institutional Review Board, ensuring compliance with data privacy regulations (HIPAA, GDPR).
+  \item \textbf{Data Preprocessing}:
+    \begin{itemize}
+      \item \textit{Image}: Standardize resolution, apply normalization, and perform label quality checks.
+      \item \textit{Text}: Remove personal health information (PHI), tokenize, and handle domain-specific terms through medical ontologies.
+    \end{itemize}
+  \item \textbf{Integration}: Create a unified dataset where each image is paired with relevant textual reports.
+\end{enumerate}
+
+\subsection*{6.4 Data Analysis Methods}
+\begin{itemize}
+  \item \textbf{Model Architecture}:
+    \begin{itemize}
+      \item \textit{Image Encoder}: Vision Transformer or CNN-based backbone (ResNet, DenseNet).
+      \item \textit{Text Encoder}: GPT-like LLM or domain-specific large model (e.g., BioBERT).
+      \item \textit{Fusion Layer}: Attention-based mechanism or cross-modal transformer.
+    \end{itemize}
+  \item \textbf{Training}:
+    \begin{itemize}
+      \item \textit{Loss Functions}: Combined classification/regression loss for disease detection plus alignment losses for text-image consistency.
+      \item \textit{Evaluation Metrics}: Accuracy, F1-score for classification; ROC-AUC, and metrics assessing alignment quality between textual and visual features.
+    \end{itemize}
+  \item \textbf{Limitations}:
+    \begin{itemize}
+      \item \textit{Data Heterogeneity}: Different hospitals may have varied labeling conventions.
+      \item \textit{Computational Resources}: Large datasets with high-resolution images plus extensive text corpora require significant GPU resources.
+      \item \textit{Interpretability}: Integrating attention maps from images with textual attention weights can be complex to present in a clinician-friendly manner.
+    \end{itemize}
+\end{itemize}
+
+\subsection*{6.5 Limitations}
+\begin{itemize}
+  \item \textbf{Data Accessibility}: Access to comprehensive, paired image-text datasets can be limited due to privacy constraints.
+  \item \textbf{Bias and Generalizability}: Model performance might vary across patient populations if not adequately diversified.
+  \item \textbf{Evolving LLM Paradigms}: Rapid changes in LLM architectures may require frequent model updates or fine-tuning strategies.
+\end{itemize}
+
+% ---------------------------------------
+% 7. Proposed Timeframe
+% ---------------------------------------
+\section*{7. Proposed Timeframe}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lcl}
+\hline
+\textbf{Phase} & \textbf{Duration (Months)} & \textbf{Main Activities} \\
+\hline
+\textbf{Phase 1: Preparatory} & 1--2 &
+\begin{minipage}[t]{0.6\textwidth}
+\raggedright
+Literature review, ethics application, initial data collection
+\end{minipage} \\
+\textbf{Phase 2: Data Integration} & 3--5 &
+\begin{minipage}[t]{0.6\textwidth}
+\raggedright
+Data cleaning, de-identification, pairing images with text
+\end{minipage} \\
+\textbf{Phase 3: Model Development} & 6--8 &
+\begin{minipage}[t]{0.6\textwidth}
+\raggedright
+Building and tuning multi-modal architecture (image encoder + LLM text encoder + fusion)
+\end{minipage} \\
+\textbf{Phase 4: Evaluation} & 9--10 &
+\begin{minipage}[t]{0.6\textwidth}
+\raggedright
+Model testing (performance, interpretability), domain adaptation checks on external data
+\end{minipage} \\
+\textbf{Phase 5: Refinement} & 11--12 &
+\begin{minipage}[t]{0.6\textwidth}
+\raggedright
+Incorporating clinician feedback, finalizing experiments, drafting conference/journal publications
+\end{minipage} \\
+\textbf{Phase 6: Thesis Write-up} & 13--15 &
+\begin{minipage}[t]{0.6\textwidth}
+\raggedright
+Writing dissertation chapters, thorough peer review, preparing for defense
+\end{minipage} \\
+\hline
+\end{tabular}
+\end{table}
+
+% ---------------------------------------
+% 8. Expected Outcomes
+% ---------------------------------------
+\section*{8. Expected Outcomes}
+
+\begin{enumerate}
+  \item \textbf{Multi-Modal Analytical Framework}  
+  A robust system that combines medical imaging with LLM-based text analysis, demonstrating higher accuracy over single-modality baselines.
+
+  \item \textbf{Clinical Workflow Enhancement}  
+  A prototype decision-support tool that can help radiologists or clinicians by providing contextual text-based insights alongside image-based alerts or segmentations.
+
+  \item \textbf{Contributions to Explainable AI}  
+  Novel interpretability mechanisms, detailing how textual insights match or reinforce findings in radiological images, thus improving trust among medical professionals.
+
+  \item \textbf{Publications and Knowledge Sharing}  
+  Expected to yield peer-reviewed publications, technical presentations, and potentially open-source code or frameworks beneficial to the broader healthcare AI community.
+\end{enumerate}
+
+% ---------------------------------------
+% 9. References
+% ---------------------------------------
+\section*{9. References}
+
+\begin{itemize}
+\item Alawad, M., Li, Y., \& Luo, Y. (2023). \textit{Augmenting Medical Image Analysis with Clinical Text: A Multi-Modal Deep Learning Approach}. IEEE Transactions on Medical Imaging, 42(3), 789--802.
+\item Devlin, J., Chang, M.-W., Lee, K., \& Toutanova, K. (2019). \textit{BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding}. In Proceedings of the 2019 Conference of the North American Chapter of the ACL (NAACL), 4171--4186.
+\item Johnson, A. E., Pollard, T. J., Shen, L., et al. (2019). \textit{MIMIC-CXR: A Large Publicly Available Database of Labeled Chest Radiographs}. arXiv preprint arXiv:1901.07042.
+\item Li, Z., Wang, S., \& Wang, L. (2022). \textit{Vision-Language Models in Medical Imaging: A Comprehensive Review}. Frontiers in Artificial Intelligence, 5(112), 1--15.
+\item Radford, A., Narasimhan, K., Salimans, T., \& Sutskever, I. (2018). \textit{Improving Language Understanding by Generative Pre-Training}. OpenAI Preprint.
+\item Simonyan, K., \& Zisserman, A. (2015). \textit{Very Deep Convolutional Networks for Large-Scale Image Recognition}. In ICLR.
+\item Vaswani, A., Shazeer, N., Parmar, N., et al. (2017). \textit{Attention Is All You Need}. In NIPS, 5998--6008.
+\item Yu, K.-H., Kohane, I. S., \& Butte, A. J. (2022). \textit{Artificial Intelligence and Machine Learning in Clinical Development: A Translational Perspective}. Nature Reviews Drug Discovery, 21(3), 184--200.
+\end{itemize}
+
+\end{document}

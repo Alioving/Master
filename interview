@@ -1,0 +1,24 @@
+Paper Presentation:
+
+Page1:
+
+"Hello , my name is Wenbin Hu. The topic of my work is 'Prediction of Epileptic Seizures Based on Convolution Neural Network.'  
+This research focuses on utilizing deep learning techniques, specifically Convolutional Neural Networks (CNNs), to improve the prediction of epileptic seizures. 
+By analyzing EEG signals, the model aims to detect patterns that indicate an upcoming seizure, enabling early intervention.  
+
+In the following slides, I will introduce the motivation behind this study, the methodology used, key findings, and potential applications. Let’s get started."
+
+Page2:
+"This section introduces the background and current status of epileptic seizure prediction.
+
+Page3:
+"This slide presents the research background on epilepsy.
+
+Epilepsy is a recurrent and sudden neurological disease affecting about 50 million people worldwide, with a high recurrence rate.
+Cause of Epileptic Seizures: They are triggered by hypersynchronous abnormal discharges in the brain.
+Manifestations: Symptoms include convulsive movements and temporary loss of consciousness.
+Treatment Methods: Current treatments mainly include medication and surgical interventions.
+The images below illustrate EEG signals and the electrode placement system used for monitoring brain activity."
+
+Page4:
+

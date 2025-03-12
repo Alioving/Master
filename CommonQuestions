@@ -3,14 +3,14 @@ Interviewer’s perspective: They want to understand your motivation for returni
 
 Sample Answer:
 
-“During my five years as a software engineer, I frequently worked on projects involving data analysis and machine learning. In particular, I gained exposure to medical data processing, which sparked my interest in machine learning-based epileptic seizure detection. I found that deeper theoretical and experimental exploration could lead to more innovative solutions than what is typically achieved in a fast-paced industry environment. Pursuing a PhD will allow me to systematically investigate these complex challenges, refine cutting-edge techniques, and hopefully contribute novel methods that can improve patient outcomes.”
+“Over the past five years working as a software engineer, most of my responsibilities have focused on meeting business requirements and delivering solutions for various projects. While this practical experience has been valuable, I have felt a growing need to conduct deeper, more systematic research in a specific area. Pursuing a PhD would offer an environment where I can delve into cutting-edge topics and develop innovative approaches. It would also provide the academic rigor and mentorship necessary to push the boundaries of my field. Ultimately, I hope not only to apply technology effectively, but also to contribute to the theoretical underpinnings and methodologies that will advance both industry and academia.”
 
 2. Why did you choose our university and this specific lab for your PhD?
 Interviewer’s perspective: They want to see if you have done your homework about the lab’s research and how your background fits.
 
 Sample Answer:
 
-“I have been following your lab’s work on epileptic seizure detection using machine learning for some time. Your recent publication on leveraging deep neural networks with EEG signals was particularly inspiring. My own experience in software engineering includes developing scalable ML solutions, which could be applied to the data processing pipelines your lab deals with. I believe combining my industry-honed skills with the lab’s expertise in seizure detection will lead to a productive collaboration, and your track record of impactful publications confirms this is the right place to pursue my research ambitions.”
+“Monash University is a globally renowned institution known for its strong research impact and academic excellence. While exploring potential PhD programs, I found your lab and research project on the university's official website. The focus of your work closely aligns with my previous research experience, making it an ideal environment for me to contribute effectively while also deepening my expertise. By working in a familiar domain, I can quickly adapt and start making meaningful contributions, ensuring a productive and impactful research journey.”
 
 3. What are your research interests and how do you envision focusing them during your PhD?
 Interviewer’s perspective: They want to assess the alignment between your interests and the lab’s work, as well as your understanding of the field.
@@ -24,7 +24,9 @@ Interviewer’s perspective: They’re evaluating your research or project manag
 
 Sample Answer:
 
-“During my master’s degree, I focused on machine learning for biomedical signal processing, which led to a conference publication on improving seizure detection algorithms using a novel feature extraction method. In my subsequent work as a software engineer, I led a team that integrated a machine learning pipeline into our health-monitoring platform, increasing anomaly detection speed by 40%. This hands-on experience with large-scale data processing, combined with my prior research, has prepared me to tackle more intricate problems in seizure detection at the PhD level.”
+“During my master's studies, my research focused on epileptic seizure prediction using machine learning. As a result of this work, I published two journal papers and obtained a Chinese patent related to this research. Additionally, during my internship, I worked on a deep learning-based sleep monitoring project, which also led to another Chinese patent.
+
+At Huawei, my role primarily involved software development, which significantly enhanced my coding and practical engineering skills. This combination of academic research and industry experience has provided me with a strong foundation in both theoretical and applied aspects of machine learning, making me well-prepared for further research in this field. I believe these experiences align well with the requirements of the PhD program and will enable me to contribute effectively.”
 
 5. How do you handle challenges and difficulties in research? Can you give an example?
 Interviewer’s perspective: They want to know how you cope with setbacks and solve problems—essential qualities for a PhD candidate.
@@ -52,7 +54,7 @@ Interviewer’s perspective: They might worry if you’re still equipped for the
 
 Sample Answer:
 
-“I understand that the academic environment demands rigorous exploration of theoretical concepts, which may differ from industry priorities. However, I’ve stayed informed by reading relevant papers, attending webinars, and working on personal side projects related to signal processing. My time as a software engineer also sharpened my problem-solving, time management, and collaboration skills—critical assets for managing a complex PhD project. I’m confident that, with a short period of adjustment and a proactive approach to catching up on cutting-edge theory, I’ll adapt quickly.”
+“I understand that the academic environment demands rigorous exploration of theoretical concepts, which may differ from industry priorities. However, I will stayed informed by reading relevant papers, attending webinars, and working on personal side projects related to signal processing. My time as a software engineer also sharpened my problem-solving, time management, and collaboration skills—critical assets for managing a complex PhD project. I’m confident that, with a short period of adjustment and a proactive approach to catching up on cutting-edge theory, I’ll adapt quickly.”
 
 9. How do you plan to communicate and collaborate effectively with your advisor and the research team?
 Interviewer’s perspective: They want to gauge how well you’ll fit into the lab’s collaborative environment.
@@ -68,8 +70,4 @@ Sample Answer:
 
 “I’m aware that the PhD journey involves high standards, tight deadlines, and sometimes setbacks with experiments or publication rejections. Over the past five years, I’ve learned to break down large projects into manageable milestones and maintain steady progress instead of aiming for perfection all at once. I also find it helpful to seek feedback early, whether from my advisor or peers, to catch issues before they escalate. If something fails, I see it as an opportunity to refine my hypotheses or approach. Maintaining a good work-life balance and staying involved with peers helps me manage stress and remain productive.”
 
-Final Notes
-Emphasize your Unique Edge: Your software engineering experience is an asset, especially if you can highlight how it will drive practical and implementable research.
-Stay Current with Literature: Demonstrate familiarity with recent papers in epileptic seizure detection and machine learning.
-Show Enthusiasm and Preparedness: A PhD is a marathon, not a sprint, so genuine passion coupled with a clear plan is key.
-Adapt as Needed: These are sample answers; personalize them with your actual experiences, specific technical details, and genuine research goals.
+

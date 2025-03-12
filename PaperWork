@@ -31,3 +31,124 @@ Overall, this research aims to enhance seizure prediction accuracy, improve medi
 
 Page5:
 
+*"This slide presents the current research status of epileptic seizure prediction models. The process follows three key steps:
+
+Input Signal – EEG data is collected from patients.
+Feature Extraction – Key signal characteristics are extracted, such as time-domain, frequency-domain, and nonlinear features.
+Classification – A machine learning model analyzes the extracted features and predicts seizure occurrences.
+The flowchart visually represents this process, showing how raw EEG signals are transformed into classified seizure predictions."*
+
+📌 Challenges in Existing Methods
+*"Despite advancements, current models face two key limitations:
+
+Sensitivity to Feature Selection – The classifier's accuracy depends heavily on the quality of selected features.
+Unclear Preictal Classification – The boundary between normal and pre-seizure states remains difficult to define.
+These challenges highlight the need for more robust feature extraction techniques and improved classification models to enhance seizure prediction accuracy."*
+
+Page6:
+"This slide presents the current research status in epileptic seizure prediction, focusing on feature extraction methods and machine learning approaches used for classification."
+
+📌 Feature Extraction Approaches
+"Feature extraction plays a critical role in seizure prediction. Five primary feature types are used in current research:"
+
+Time-Domain Features – Extract statistical patterns directly from EEG signals.
+Frequency-Domain Features – Identify dominant frequency components using Fourier Transform.
+Time-Frequency Features – Analyze EEG variations over time using wavelet transformations.
+Nonlinear Features – Capture complex brain dynamics such as entropy and fractal dimensions.
+Graph Model Features – Represent brain connectivity using network-based analysis.
+📌 Machine Learning Approaches
+"Two major categories of machine learning models are used for seizure detection:"
+
+Traditional Machine Learning:
+
+Relies on manual feature extraction followed by classification.
+Common models include K-Nearest Neighbors (KNN), Random Forest (RF), and Support Vector Machine (SVM).
+While effective, these methods depend on feature engineering and may struggle with complex EEG patterns.
+Deep Learning Approaches:
+
+Extract features directly from raw EEG signals without manual intervention.
+Common architectures include Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Long Short-Term Memory (LSTM) networks.
+These models offer better generalization but require large datasets and high computational resources.
+📌 Summary
+"In summary, current research integrates both traditional machine learning and deep learning for seizure prediction. Feature extraction remains a key challenge, and while deep learning offers automated pattern recognition, it requires further optimization to improve accuracy and efficiency."
+
+Page7：
+In this slide, I will highlight the key contributions and innovations introduced in this research. Our work focuses on enhancing seizure prediction accuracy through novel methodologies."
+
+📌 Key Contributions
+1️⃣ Preictal Stage Segmentation Method
+"We introduce a new segmentation strategy for identifying the preictal state, which is the time period before a seizure occurs. Accurately segmenting this stage is critical because it enables early seizure detection and allows patients to take precautionary measures."
+
+2️⃣ Pre-extraction of EEG MAS (Mean Amplitude Spectrum) Features
+"Instead of using traditional time-domain or raw EEG signals, we focus on Mean Amplitude Spectrum (MAS) features, which provide a stable frequency-domain representation of EEG activity. This approach improves the robustness of feature extraction and enhances seizure classification accuracy."
+
+3️⃣ Epileptic State Classification Algorithm
+"We develop an optimized classification algorithm that combines deep learning and machine learning to distinguish between different seizure states. This model improves upon existing techniques by increasing generalization capability and reducing misclassification rates."
+
+📌 Summary
+"These innovations contribute to a more efficient, accurate, and reliable epileptic seizure prediction system, ultimately benefiting both clinicians and patients."
+
+Page8:
+*"Now, we move on to the second part of this presentation, which focuses on the research methodology and experimental process used in this study.
+
+Page9:
+This slide presents the research process for epileptic seizure prediction, which consists of four major stages. On the left, we outline the key phases, while the right side provides a detailed step-by-step pipeline from EEG signal processing to classification results."
+
+📌 Left Section: Four Key Phases
+1️⃣ Phase Division – EEG data is divided into different time segments for better analysis of seizure progression.
+2️⃣ Pre-feature Extraction – Raw EEG signals are processed using Fourier Transform (FFT) to extract frequency-domain features.
+3️⃣ CNN Feature Extraction – Deep learning is used to automatically learn patterns from EEG signals.
+4️⃣ SVM Classification – A Support Vector Machine classifier is applied for the final classification of seizure states.
+
+📌 Right Section: Step-by-Step Process with Mathematical Notation
+Step 1: Original EEG Signal
+
+The EEG signal is represented as 
+𝑥𝑖∈𝑅1×512x i∈R 1×512
+ , where i denotes the channel index.
+This raw signal is transformed into the frequency domain using FFT (Fast Fourier Transform).
+Step 2: Frequency Domain Transformation
+
+The transformed data is denoted as 𝑃𝑖∈𝑅1×256P i ∈R 1×256
+for each channel.
+From this, 19 frequency bands are selected, and their mean values are computed.
+Step 3: Mean Amplitude Spectrum (MAS) Computation
+
+The extracted MAS feature matrix is of size 
+𝑅18×19  R 18×19
+ , representing frequency characteristics across multiple EEG channels.
+Step 4: CNN Feature Extraction
+
+The MAS features are fed into a Convolutional Neural Network (CNN) to generate high-dimensional feature representations.
+Step 5: Probability Distribution Output
+
+The CNN produces probability distributions 
+𝑅5×1R 5×1, mapping EEG features to different seizure states.
+Step 6: SVM Classification
+
+The probability outputs from CNN are passed into an SVM classifier, which performs the final classification.
+Step 7: Final Output (Seizure State Classification)
+
+The model predicts one of five possible states:
+Interictal (Normal brain activity)
+PreI, PreII, PreIII (Pre-seizure stages)
+Seizure (Active seizure state)
+📌 Summary
+"In summary, this pipeline integrates FFT-based feature extraction, CNN deep learning, and SVM classification to enhance seizure prediction accuracy. The multi-stage approach ensures a more robust classification of different seizure phases, improving early detection capabilities."
+
+Page10:
+The seizure cycle is divided into different stages:
+
+Interictal Phase (Non-seizure state) – A period that lasts for several hours before or after a seizure.
+Preictal Phase (Pre-seizure state) – The critical time window before a seizure occurs.
+Seizure Phase – The period when the seizure is actively happening.
+Postictal Phase (Recovery state) – A phase following the seizure where brain activity stabilizes.
+📌 Preictal Subdivision for Seizure Prediction
+To enhance seizure prediction accuracy, the preictal state is further divided into three smaller segments:
+
+Pre I (40-60 minutes before seizure)
+Pre II (20-40 minutes before seizure)
+Pre III (0-20 minutes before seizure)
+This segmentation allows more precise classification of seizure onset, enabling early detection and intervention.
+
+Page11:

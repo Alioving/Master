@@ -1,25 +1,34 @@
-1. Why do you want to pursue a PhD after five years in industry?
+自我介绍
+
+Dear Professor Kuhlmann
+
+I should actually say good evening, because I'm in Europe right now, and the current time is 11:30 p.m. I came here to support the customer's business. 
+
+My name is Hu Wenbin, from China. I graduated from Hangzhou Dianzi University in 2019 with a master's degree in control engineering. After graduation, I have been engaged in software development related work in Huawei Technologies Co., LTD. (the most famous communication company in China and a mobile phone manufacturer). My graduate thesis is the prediction of epileptic seizure based on machine learning, which I believe matches your direction
+My partner, Deutsche Telekom, bought some of our company's products such as servers and some other solution products, which need the support of engineers. At present, my main job is to maintain the stability of the live network, update and upgrade the version of the live network system, and solve customers' problems. I've written code, I've done testing, I've done pretty much anything related to software development.
+
+===============1. Why do you want to pursue a PhD after five years in industry?
 Interviewer’s perspective: They want to understand your motivation for returning to academia, how this decision fits into your career plan, and why you believe a PhD is necessary.
 
 Sample Answer:
 
-“Over the past five years working as a software engineer, most of my responsibilities have focused on meeting business requirements and delivering solutions for various projects. While this practical experience has been valuable, I have felt a growing need to conduct deeper, more systematic research in a specific area. Pursuing a PhD would offer an environment where I can delve into cutting-edge topics and develop innovative approaches. It would also provide the academic rigor and mentorship necessary to push the boundaries of my field. Ultimately, I hope not only to apply technology effectively, but also to contribute to the theoretical underpinnings and methodologies that will advance both industry and academia.”
+“Over the past five years working as a software engineer, most of my responsibilities have focused on meeting business requirements and delivering solutions for various projects. While this practical experience has been valuable, I have felt a growing need to conduct deeper, more systematic research in a specific area. Pursuing a PhD would offer an environment where I can delve into cutting-edge topics and develop innovative approaches. Moreover, with the rise of AI recently, I think it is very interesting to use AI to do some research, especially those related to medical science, which can solve some problems that could not be solved before for the society. I think this is a very challenging and meaningful thing.”
 
-2. Why did you choose our university and this specific lab for your PhD?
+===============2. Why did you choose our university and this specific lab for your PhD?
 Interviewer’s perspective: They want to see if you have done your homework about the lab’s research and how your background fits.
 
 Sample Answer:
 
 “Monash University is a globally renowned institution known for its strong research impact and academic excellence. While exploring potential PhD programs, I found your lab and research project on the university's official website. The focus of your work closely aligns with my previous research experience, making it an ideal environment for me to contribute effectively while also deepening my expertise. By working in a familiar domain, I can quickly adapt and start making meaningful contributions, ensuring a productive and impactful research journey.”
 
-3. What are your research interests and how do you envision focusing them during your PhD?
+=============3. What are your research interests and how do you envision focusing them during your PhD?
 Interviewer’s perspective: They want to assess the alignment between your interests and the lab’s work, as well as your understanding of the field.
 
 Sample Answer:
 
 “I am particularly interested in using deep learning and signal processing techniques to improve epileptic seizure detection accuracy and reduce false positives. From my industrial experience, I’ve seen that real-time detection often faces challenges with noisy data and limited processing power. In my PhD research, I’d like to explore more advanced architectures—such as attention-based models or graph neural networks—that could handle these complexities. Ultimately, I aim to develop a robust system that can be clinically viable and beneficial for neurology departments or telemedicine applications.”
 
-4. What kind of research or technical projects have you undertaken in your master’s study or during your employment? What are the outcomes?
+============== 4. What kind of research or technical projects have you undertaken in your master’s study or during your employment? What are the outcomes?
 Interviewer’s perspective: They’re evaluating your research or project management capabilities and potential to contribute to the lab.
 
 Sample Answer:
@@ -28,42 +37,42 @@ Sample Answer:
 
 At Huawei, my role primarily involved software development, which significantly enhanced my coding and practical engineering skills. This combination of academic research and industry experience has provided me with a strong foundation in both theoretical and applied aspects of machine learning, making me well-prepared for further research in this field. I believe these experiences align well with the requirements of the PhD program and will enable me to contribute effectively.”
 
-5. How do you handle challenges and difficulties in research? Can you give an example?
+================5. How do you handle challenges and difficulties in research? Can you give an example?
 Interviewer’s perspective: They want to know how you cope with setbacks and solve problems—essential qualities for a PhD candidate.
 
 Sample Answer:
 
-“In one of my recent projects, we struggled with extremely imbalanced data, which caused our model to miss critical events. After extensive literature review, I discovered several techniques like data augmentation and specialized loss functions that could mitigate the imbalance issue. I then collaborated with my team to run a series of experiments, ultimately improving performance metrics significantly. This experience taught me the importance of staying current with the latest research, systematically testing hypotheses, and engaging in collaborative problem-solving.”
+“In one of my previous projects, we struggled with extremely imbalanced data, which caused our model to miss critical events. After extensive literature review, I discovered several techniques like data augmentation and specialized loss functions that could mitigate the imbalance issue. I then collaborated with my team to run a series of experiments, ultimately improving performance metrics significantly. This experience taught me the importance of staying current with the latest research, systematically testing hypotheses, and engaging in collaborative problem-solving.”
 
-6. What is your plan for your PhD study?
+===================6. What is your plan for your PhD study?
 Interviewer’s perspective: They want a sense of your structure, goals, and time management approach.
 
 Sample Answer:
 
 “In the first year, I plan to solidify my understanding of state-of-the-art methods in seizure detection, reading extensively on EEG-based machine learning and clinical contexts. Concurrently, I’ll initiate small pilot studies to identify the most promising angle. During the second and third years, I aim to refine a specialized framework—likely involving deep learning or hybrid models—for accurate and efficient seizure detection, with the goal of publishing my findings in reputable conferences or journals. In the final year, I hope to extend the system’s generalizability and explore potential clinical collaborations or real-world pilots, ensuring a strong foundation for post-PhD work.”
 
-7. What are your career plans after earning your PhD? Will you stay in academia or go back to industry?
+==================7. What are your career plans after earning your PhD? Will you stay in academia or go back to industry?
 Interviewer’s perspective: They are curious about your long-term ambitions and how the PhD fits into them.
 
 Sample Answer:
 
 “I see myself continuing research in a capacity that combines academia and industry—possibly through a postdoc or a research-centric role in a tech or med-tech company. I’m drawn to the idea of bridging advanced research and real-world medical applications, especially because machine learning-based seizure detection has so much potential to help patients if properly deployed. If I have the opportunity to teach or mentor others in a university setting while still engaging in practical innovations, that would be ideal.”
 
-8. You’ve been out of academia for five years. Are you concerned about the transition back into research?
+=================8. You’ve been out of academia for five years. Are you concerned about the transition back into research?
 Interviewer’s perspective: They might worry if you’re still equipped for the demands of doctoral research.
 
 Sample Answer:
 
 “I understand that the academic environment demands rigorous exploration of theoretical concepts, which may differ from industry priorities. However, I will stayed informed by reading relevant papers, attending webinars, and working on personal side projects related to signal processing. My time as a software engineer also sharpened my problem-solving, time management, and collaboration skills—critical assets for managing a complex PhD project. I’m confident that, with a short period of adjustment and a proactive approach to catching up on cutting-edge theory, I’ll adapt quickly.”
 
-9. How do you plan to communicate and collaborate effectively with your advisor and the research team?
+========================== 9. How do you plan to communicate and collaborate effectively with your advisor and the research team?
 Interviewer’s perspective: They want to gauge how well you’ll fit into the lab’s collaborative environment.
 
-Sample Answer:
+ Sample Answer:
 
 “In my previous role, I led cross-functional teams where open communication and consistent feedback loops were essential. I plan to bring the same mindset here: regularly meeting with my advisor, sharing progress updates, discussing roadblocks, and seeking guidance early on to avoid going down unproductive paths. I also look forward to engaging with lab colleagues—especially those with complementary expertise—so we can exchange ideas and accelerate everyone’s research. Team synergy and knowledge sharing are cornerstones of meaningful innovation.”
 
-10. How will you handle the pressure of publishing papers, competition, and potential failures during the PhD?
+==================== 10. How will you handle the pressure of publishing papers, competition, and potential failures during the PhD?
 Interviewer’s perspective: They want to see if you have realistic expectations of the challenges ahead and the resilience to overcome them.
 
 Sample Answer:
@@ -71,3 +80,95 @@ Sample Answer:
 “I’m aware that the PhD journey involves high standards, tight deadlines, and sometimes setbacks with experiments or publication rejections. Over the past five years, I’ve learned to break down large projects into manageable milestones and maintain steady progress instead of aiming for perfection all at once. I also find it helpful to seek feedback early, whether from my advisor or peers, to catch issues before they escalate. If something fails, I see it as an opportunity to refine my hypotheses or approach. Maintaining a good work-life balance and staying involved with peers helps me manage stress and remain productive.”
 
 
+=============== 11.  Research Challenges and Difficulties
+"Every research project faces challenges, and our study on epileptic seizure prediction is no exception. Here, I will highlight three key difficulties that impacted our research and discuss their implications."
+
+📌 1. Limited Data Availability
+Obtaining high-quality EEG data is difficult, as there are very few publicly available datasets.
+Our final dataset contained only around 10,000 samples, sourced from a single public database.
+Generalization remains a concern—since our data is limited, the model's performance on unseen clinical data may not be optimal.
+Even though we collaborated with hospitals, access to clinical EEG data was very restricted, making it hard to improve model robustness.
+This limitation is evident in our clinical trial results, which show a drop in performance when tested on real-world patient data.
+📌 2. Computational Constraints at the Time
+Five years ago, computing power was far more limited compared to today.
+Deep learning models require substantial computational resources, but at that time, high-performance GPUs were not as common or accessible.
+This constraint restricted the size of our training dataset and the complexity of our model architectures.
+With today’s advancements in hardware, we believe that training on larger EEG datasets would significantly improve model accuracy and generalization.
+📌 3. Pre-feature Selection and Model Input Optimization
+While CNNs can learn features automatically, our initial approach of using raw EEG signals as input did not yield good results.
+EEG signals have complex frequency-domain characteristics, which are not well captured by direct time-domain analysis.
+To address this, we explored frequency-domain features:
+Converted EEG signals into frequency representations.
+Applied basic processing techniques to enhance signal clarity before feeding it into the CNN.
+This significantly improved model performance, showing that pre-processing EEG data before deep learning is crucial.
+📌 Summary
+*"In summary, the three biggest challenges were:
+
+Limited dataset size, leading to generalization issues.
+Computational constraints at the time, restricting model training.
+Feature selection—shifting from raw EEG signals to frequency-domain transformations improved performance.
+As computing power increases and more clinical EEG data becomes available, we believe that future models will achieve much higher accuracy and reliability."*
+
+
+=========12。 do you have anyquestion?
+在博士面试时，导师通常希望你**不仅展示你的研究能力**，也展现你对研究方向的兴趣、对团队的适应性，以及你对博士生活的期待。因此，提出**高质量的问题**可以让导师对你留下更好的印象，同时帮助你了解博士期间的学习和研究环境。
+
+---
+
+### **🎯 关键问题方向**
+你可以从以下几个方面提问：
+1. **研究方向与项目**
+2. **实验室资源与团队**
+3. **博士培养模式**
+4. **职业发展与合作机会**
+
+## **📌 1. 研究方向与项目**
+
+- **“How do you see my previous research on EEG-based seizure prediction contributing to your current projects?”**  
+  _(您认为我之前关于基于 EEG 的癫痫预测研究可以如何融入实验室的项目？)_  
+  → **目的**: 让导师说明你的研究与实验室的契合度，评估你的贡献价值。  
+
+- **“What are the key methodologies or models your lab is currently focusing on in EEG analysis?”**  
+  _(您的实验室目前主要在 EEG 分析中使用哪些关键方法或模型？)_  
+  → **目的**: 了解实验室的技术栈，看是否与自己擅长的方向匹配。  
+---
+
+## **📌 2. 实验室资源与团队**
+- **“How does your research group typically collaborate? Do students work independently on projects, or is there more teamwork?”**  
+  _(您的研究团队通常如何合作？学生是独立开展项目，还是更多是团队合作？)_  
+  → **目的**: 了解团队氛围，看看自己是否适应。  
+
+- **“What kind of computational resources does the lab provide for deep learning and EEG data processing?”**  
+  _(实验室提供哪些计算资源用于深度学习和 EEG 数据处理？)_  
+  → **目的**: 确保你的研究需求（如 GPU 计算能力）能得到满足。  
+
+- **“Does the lab have access to clinical EEG datasets, or are there ongoing collaborations to obtain real-world data?”**  
+  _(实验室是否有临床 EEG 数据，或者正在进行的数据合作？)_  
+  → **目的**: 了解实验室的数据来源是否充足，以免影响你的研究进展。  
+
+---
+
+## **📌 3. 博士培养模式**
+  
+
+- **“What are your expectations for PhD students in terms of publishing papers? Is there a target number of publications before graduation?”**  
+  _(您对博士生的论文发表有什么期望？是否有最低要求？)_  
+  → **目的**: 确保自己能满足毕业要求，同时规划自己的研究节奏。  
+---
+
+## **📌 4. 职业发展与合作机会**
+- **“What career paths do most of your PhD graduates pursue? Are there industry collaborations available?”**  
+  _(您的博士毕业生通常走哪些职业路径？实验室是否有产业合作？)_  
+  → **目的**: 了解博士毕业后的就业前景，尤其是**学术 vs. 工业**方向的选择。  
+
+- **“Does the lab encourage PhD students to attend international conferences? Are there funding opportunities for travel?”**  
+  _(实验室是否支持博士生参加国际会议？是否有资助机会？)_  
+  → **目的**: 确保自己能有国际交流的机会，提高学术影响力。  
+
+- **“Are there any ongoing collaborations with other universities or research institutions that PhD students can be involved in?”**  
+  _(实验室是否有与其他大学或研究机构的合作？博士生可以参与其中吗？)_  
+  → **目的**: 了解是否有国际合作或多学科交叉研究的机会。  
+
+
+其他问题：
+"I would like to ask about the purpose of this interview. Since I already received the application email from the faculty last night, I am wondering how much this interview will affect my subsequent application process."
